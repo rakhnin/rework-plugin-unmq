@@ -1,4 +1,5 @@
 /* eslint-env mocha */
+'use strict'
 
 const expect = require('chai').expect
 const rework = require('rework')
@@ -16,12 +17,12 @@ function loadFixture (str, encoding) {
 
 describe('process @media', function () {
   it('should process simple @media rule with default', function () {
-    let souldCSS = rework(loadFixture('simple/input.css')).use(plugin()).toString()
+    var souldCSS = rework(loadFixture('simple/input.css')).use(plugin()).toString()
     expect(souldCSS).to.be.a('string')
     expect(souldCSS).to.equal(loadFixture('simple/should1.css'))
   })
   it('should process simple @media rule custom options', function () {
-    let souldCSS = rework(loadFixture('simple/input.css')).use(plugin({
+    var souldCSS = rework(loadFixture('simple/input.css')).use(plugin({
       width: '75px',
       height: '150px',
       resolution: '2dppx',
