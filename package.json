@@ -28,6 +28,7 @@
     "plugin"
   ],
   "dependencies": {
+    "css": "^2.2.1",
     "css-mediaquery": "^0.1.2",
     "rework": "^1.0.1"
   },
