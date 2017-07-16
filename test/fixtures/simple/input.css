@@ -1,0 +1,35 @@
+@media screen and (min-width: 100px) {
+  div {
+    min-width: 100px;
+  }
+}
+
+@media screen and (min-width: 200px) {
+  div {
+    min-width: 200px;
+  }
+}
+
+@media screen and (max-width: 100px) {
+  div {
+    max-width: 100px;
+  }
+}
+
+@media screen and (max-width: 200px) {
+  div {
+    max-width: 200px;
+  }
+}
+
+@media screen and (min-aspect-ratio: 1) {
+  div {
+    color: #f00;
+  }
+}
+
+@media screen and (max-aspect-ratio: 1) {
+  div {
+    color: #0f0;
+  }
+}
