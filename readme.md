@@ -1,4 +1,4 @@
-# rework-plugin-unmq
+# rework-plugin-unmq [![Build Status](http://img.shields.io/travis/rakhnin/rework-plugin-unmq.svg?style=flat)](https://travis-ci.org/rakhnin/rework-plugin-unmq)
 
 > The rework plugin removes @media queries on CSS processing with predefined viewport
 
